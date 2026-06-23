@@ -226,47 +226,55 @@
 
     <!-- PROJECTS -->
     <section class="section" id="projects">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-num mono">03</span>
-                <h2 class="section-title">Projects</h2>
-            </div>
-            <div class="projects-grid">
-
-                <!-- PLACEHOLDER 1 -->
-                <div class="project-card project-card--placeholder">
-                    <div class="project-placeholder-inner">
-                        <span class="project-placeholder-icon">+</span>
-                        <p class="project-placeholder-text">Your project coming soon</p>
-                    </div>
-                </div>
-
-                <!-- PLACEHOLDER 2 -->
-                <div class="project-card project-card--placeholder">
-                    <div class="project-placeholder-inner">
-                        <span class="project-placeholder-icon">+</span>
-                        <p class="project-placeholder-text">Your project coming soon</p>
-                    </div>
-                </div>
-
-                <!-- EXAMPLE REAL PROJECT (uncomment and fill in)
-                <div class="project-card">
-                  <div class="project-header">
-                    <h3 class="project-name">Project Name</h3>
-                    <a href="https://github.com/stivenjc/your-repo" target="_blank" class="project-link">↗</a>
-                  </div>
-                  <p class="project-desc">Short description of what it does and the problem it solves.</p>
-                  <div class="tag-list">
-                    <span class="tag tag--sm">Django</span>
-                    <span class="tag tag--sm">PostgreSQL</span>
-                    <span class="tag tag--sm">Docker</span>
-                  </div>
-                </div>
-                -->
-
-            </div>
+    <div class="container">
+        <div class="section-header">
+            <span class="section-num mono">03</span>
+            <h2 class="section-title">Projects</h2>
         </div>
-    </section>
+        <div class="projects-grid">
+
+            <!-- PROYECTO: SOCIALAPP FULL STACK -->
+            <div class="project-card project-card--with-img">
+                <!-- Imagen enlazada directo al frontend en vivo -->
+                <a href="https://project-full-stack-angular.vercel.app/posts" target="_blank" class="project-img-link">
+                    <img src="assets/socialapp-preview.jpg" alt="SocialApp Feed Preview" class="project-img" style="width: 100%; height: auto; display: block; border-radius: 6px; margin-bottom: 16px; border: 1px solid rgba(255, 255, 255, 0.1); transition: opacity 0.2s ease;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'" />
+                </a>
+                
+                <div class="project-header">
+                    <h3 class="project-name">SocialApp — Full Stack</h3>
+                    <a href="https://project-full-stack-angular.vercel.app/posts" target="_blank" class="project-link" title="Live Demo">↗</a>
+                </div>
+                
+                <p class="project-desc">
+                    Red social desacoplada con feed interactivo, publicaciones multimedia, comentarios, reacciones y relaciones dinámicas de seguimiento de usuarios. Implementa un backend robusto basado en REST y almacenamiento seguro en la nube.
+                </p>
+                
+                <div class="tag-list">
+                    <span class="tag tag--main">Python</span>
+                    <span class="tag tag--main">Django REST</span>
+                    <span class="tag tag--main">Angular 18</span>
+                    <span class="tag tag--main">PostgreSQL</span>
+                    <span class="tag">Docker</span>
+                </div>
+                
+                <!-- Acceso segmentado al código fuente para el reclutador técnico -->
+                <div class="project-sources" style="margin-top: 18px; padding-top: 12px; border-top: 1px dashed rgba(255, 255, 255, 0.1); display: flex; gap: 16px;">
+                    <a href="https://github.com/stivenjc/PROJECT-FULL-STACK-ANGULAR" target="_blank" class="mono" style="font-size: 0.8rem; letter-spacing: -0.5px; opacity: 0.7; text-decoration: underline;">&lt;git/frontend&gt;</a>
+                    <a href="https://github.com/stivenjc/PROJECT-FULL-STACK-DJANGO" target="_blank" class="mono" style="font-size: 0.8rem; letter-spacing: -0.5px; opacity: 0.7; text-decoration: underline;">&lt;git/backend&gt;</a>
+                </div>
+            </div>
+
+            <!-- SEGUNDA TARJETA (PLACEHOLDER DE PURA TEXTO / PRÓXIMO SISTEMA) -->
+            <div class="project-card project-card--placeholder">
+                <div class="project-placeholder-inner">
+                    <span class="project-placeholder-icon">+</span>
+                    <p class="project-placeholder-text">Data Architecture & AI Project coming soon</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
     <!-- EDUCATION -->
     <section class="section section--alt" id="education">
