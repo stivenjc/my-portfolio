@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adrian Jimenez — Backend Developer</title>
+    <title>Adrian Jimenez — Data Engineer (Jr)</title>
+    <meta name="description" content="Data Engineer (Jr) with a backend background. ETL/ELT pipelines with Python, PySpark, Airflow, dbt, PostgreSQL and BigQuery. Co-founder of Tearrastra." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -12,18 +13,21 @@
 </head>
 <body>
 
-<!-- NAV -->
 <header class="site-header">
     <div class="container header-inner">
         <span class="logo">AJ<span class="logo-dot">.</span></span>
         <nav class="nav">
-            <a href="#about">about</a>
-            <a href="#skills">skills</a>
-            <a href="#experience">experience</a>
-            <a href="#projects">projects</a>
-            <a href="#education">education</a>
-            <a href="#contact">contact</a>
+            <a href="#about" data-es="sobre mí">about</a>
+            <a href="#projects" data-es="proyectos">projects</a>
+            <a href="#skills">stack</a>
+            <a href="#experience" data-es="experiencia">experience</a>
+            <a href="#education" data-es="educación">education</a>
+            <a href="#contact" data-es="contacto">contact</a>
         </nav>
+        <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" class="lang-btn" data-l="es">ES</button>
+            <button type="button" class="lang-btn" data-l="en">EN</button>
+        </div>
     </div>
 </header>
 
@@ -33,94 +37,36 @@
     <section class="hero" id="about">
         <div class="container">
             <div class="hero-eyebrow">
-                <span class="mono">Backend Developer · Data & AI</span>
+                <span class="mono" data-es="Data Engineer (Jr) · Experiencia en backend">Data Engineer (Jr) · Backend background</span>
                 <span class="status-dot"></span>
-                <span class="mono status-text">Open to remote, hybrid, or on-site roles</span>
+                <span class="mono status-text" data-es="Abierto a roles remotos, híbridos o presenciales">Open to remote, hybrid, or on-site roles</span>
             </div>
             <h1 class="hero-name">Adrian Stiven<br>Jimenez Cardenas</h1>
-            <p class="hero-bio">
-                I build scalable REST APIs, optimize relational databases, and deploy containerized applications.
-                My core stack is Python/Django + PostgreSQL. I've reduced server response times by up to 40%
-                and improved data integrity across production systems. Currently deepening my expertise in
-                Data Solutions Management with AI.
+            <p class="hero-bio" data-es="Construyo pipelines de datos: ETL y ELT con Python, PySpark, Airflow y dbt, sobre PostgreSQL y BigQuery. Antes, 3 años de backend en producción con Python/Django, donde reduje hasta un 40% los tiempos de respuesta del servidor. También soy cofundador de Tearrastra, un marketplace de fletes activo en Colombia.">
+                I build data pipelines: ETL and ELT with Python, PySpark, Airflow and dbt, on PostgreSQL and BigQuery.
+                Before that, 3 years of production backend work in Python/Django, where I cut server response
+                times by up to 40%. I'm also co-founder of Tearrastra, a freight marketplace live in Colombia.
             </p>
             <div class="hero-stats">
                 <div class="stat-item">
-                    <span class="stat-num">3+</span>
-                    <span class="stat-label">years experience</span>
+                    <span class="stat-num">3</span>
+                    <span class="stat-label" data-es="años de backend en producción">years in production backend</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
-                    <span class="stat-num">3</span>
-                    <span class="stat-label">companies</span>
+                    <span class="stat-num">2</span>
+                    <span class="stat-label" data-es="pipelines de datos en GitHub">data pipelines on GitHub</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
                     <span class="stat-num">40%</span>
-                    <span class="stat-label">avg. response time reduced</span>
+                    <span class="stat-label" data-es="respuestas más rápidas (Django + PostgreSQL)">faster responses (Django + PostgreSQL)</span>
                 </div>
             </div>
             <div class="hero-links">
                 <a href="https://www.linkedin.com/in/adjimenezc/" target="_blank" class="btn-primary">LinkedIn</a>
                 <a href="https://github.com/stivenjc" target="_blank" class="btn-ghost">GitHub</a>
-                <a href="mailto:jimenezcardenasad@gmail.com" class="btn-ghost">Email me</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section" id="skills">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-num mono">01</span>
-                <h2 class="section-title">Tech stack</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3 class="skill-group-title">Backend</h3>
-                    <div class="tag-list">
-                        <span class="tag tag--main">Python</span>
-                        <span class="tag tag--main">Django</span>
-                        <span class="tag tag--main">Django REST Framework</span>
-                        <span class="tag tag--main">PostgreSQL</span>
-                        <span class="tag tag--main">Docker</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">Git / GitHub</span>
-                        <span class="tag">Java</span>
-                        <span class="tag">.Net</span>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3 class="skill-group-title">Frontend</h3>
-                    <div class="tag-list">
-                        <span class="tag">Angular (Signals, RxJS)</span>
-                        <span class="tag">React</span>
-                        <span class="tag">JavaScript (ES6+)</span>
-                        <span class="tag">TypeScript</span>
-                        <span class="tag">HTML5 / CSS3</span>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3 class="skill-group-title">Data & AI</h3>
-                    <div class="tag-list">
-                        <span class="tag tag--main">SQL optimization</span>
-                        <span class="tag tag--main">Relational modeling</span>
-                        <span class="tag tag--main">Process automation</span>
-                        <span class="tag">Data processing</span>
-                        <span class="tag">REST API integration</span>
-                        <span class="tag">Claude Code</span>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3 class="skill-group-title">Workflow</h3>
-                    <div class="tag-list">
-                        <span class="tag">Scrum</span>
-                        <span class="tag">Git flow</span>
-                        <span class="tag">Spec-Driven Dev (SDD)</span>
-                        <span class="tag">Modular architecture</span>
-                        <span class="tag">AI-assisted dev</span>
-                    </div>
-                </div>
+                <a href="mailto:jimenezcardenasad@gmail.com" class="btn-ghost" data-es="Escríbeme">Email me</a>
             </div>
         </div>
     </section>
@@ -129,46 +75,126 @@
     <section class="section" id="projects">
         <div class="container">
             <div class="section-header">
-                <span class="section-num mono">03</span>
-                <h2 class="section-title">Projects</h2>
+                <h2 class="section-title" data-es="Proyectos">Projects</h2>
             </div>
             <div class="projects-grid">
 
-                <!-- PROYECTO: SOCIALAPP FULL STACK -->
-                <div class="project-card project-card--with-img">
-                    <!-- Imagen enlazada directo al frontend en vivo -->
-                    <a href="https://project-full-stack-angular.vercel.app/posts" target="_blank" class="project-img-link">
-                        <img src="assets/socialapp-preview.jpg" alt="SocialApp Feed Preview" class="project-img" style="width: 100%; height: auto; display: block; border-radius: 6px; margin-bottom: 16px; border: 1px solid rgba(255, 255, 255, 0.1); transition: opacity 0.2s ease;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'" />
-                    </a>
-
+                <!-- DATA 1: SALES ETL -->
+                <div class="project-card project-card--featured">
                     <div class="project-header">
-                        <h3 class="project-name">SocialApp — Full Stack</h3>
-                        <a href="https://project-full-stack-angular.vercel.app/posts" target="_blank" class="project-link" title="Live Demo">↗</a>
+                        <h3 class="project-name" data-es="ETL de ventas — PySpark + Airflow">Sales ETL — PySpark + Airflow</h3>
+                        <span class="project-kind mono" data-es="ingeniería de datos">data engineering</span>
                     </div>
-
-                    <p class="project-desc">
-                        Decoupled full-stack social network featuring real-time feed updates, multimedia post creation, nested comments, like metrics, and dynamic user follower systems. Built with an optimized REST API and secure cloud storage.
-
+                    <p class="project-desc" data-es="Limpia un dataset de ventas desordenado a propósito (4 formatos de fecha, nombres de país y de pago inconsistentes, precios con &quot;$&quot;, duplicados, cantidades inválidas, nulos) y lo entrega listo para analizar.">
+                        Cleans a deliberately messy sales dataset (4 date formats, inconsistent country and payment names,
+                        "$" prices, duplicates, invalid quantities, nulls) and delivers it ready for analysis.
+                    </p>
+                    <div class="flow" aria-label="Pipeline: CSV, PySpark cleaning, quality gate, outputs">
+                        <span class="flow-step" data-es="CSV de ventas">Sales CSV</span><span class="flow-arrow">→</span>
+                        <span class="flow-step flow-step--main" data-es="Limpieza con PySpark">PySpark cleaning</span><span class="flow-arrow">→</span>
+                        <span class="flow-step" data-es="Control de calidad">Quality gate</span><span class="flow-arrow">→</span>
+                        <span class="flow-step" data-es="Parquet por país">Parquet by country</span><span class="flow-plus">+</span>
+                        <span class="flow-step">PostgreSQL</span>
+                    </div>
+                    <ul class="project-points">
+                        <li data-es="Los duplicados en conflicto se resuelven con funciones de ventana: gana la versión más reciente de cada pedido.">Conflicting duplicates are resolved with window functions: the latest version of each order wins.</li>
+                        <li data-es="Un control de calidad aborta la ejecución si se descarta más del 50% de las filas, así un archivo malo nunca sobrescribe datos buenos.">A quality gate aborts the run if more than 50% of rows are discarded, so a bad file never overwrites good data.</li>
+                        <li data-es="DAG de Airflow con 3 tareas, reintentos automáticos y alertas por correo ante fallos. Ejecuciones idempotentes, cubiertas con pytest.">Airflow DAG with 3 tasks, automatic retries and email alerts on failure. Idempotent runs, covered by pytest.</li>
+                    </ul>
                     <div class="tag-list">
-                        <span class="tag tag--main">Python</span>
-                        <span class="tag tag--main">Django REST</span>
-                        <span class="tag tag--main">Angular 18</span>
+                        <span class="tag tag--main">PySpark</span>
+                        <span class="tag tag--main">Airflow</span>
                         <span class="tag tag--main">PostgreSQL</span>
+                        <span class="tag">Parquet</span>
+                        <span class="tag">pytest</span>
                         <span class="tag">Docker</span>
                     </div>
-
-                    <!-- Acceso segmentado al código fuente para el reclutador técnico -->
-                    <div class="project-sources" style="margin-top: 18px; padding-top: 12px; border-top: 1px dashed rgba(255, 255, 255, 0.1); display: flex; gap: 16px;">
-                        <a href="https://github.com/stivenjc/PROJECT-FULL-STACK-ANGULAR" target="_blank" class="mono" style="font-size: 0.8rem; letter-spacing: -0.5px; opacity: 0.7; text-decoration: underline;">&lt;git/frontend&gt;</a>
-                        <a href="https://github.com/stivenjc/PROJECT-FULL-STACK-DJANGO" target="_blank" class="mono" style="font-size: 0.8rem; letter-spacing: -0.5px; opacity: 0.7; text-decoration: underline;">&lt;git/backend&gt;</a>
+                    <div class="project-links">
+                        <a href="https://github.com/stivenjc/etl-ventas-spark-airflow" target="_blank" class="mono">&lt;git/etl-ventas-spark-airflow&gt;</a>
                     </div>
                 </div>
 
-                <!-- SEGUNDA TARJETA (PLACEHOLDER DE PURA TEXTO / PRÓXIMO SISTEMA) -->
-                <div class="project-card project-card--placeholder">
-                    <div class="project-placeholder-inner">
-                        <span class="project-placeholder-icon">+</span>
-                        <p class="project-placeholder-text">Data Architecture & AI Project coming soon</p>
+                <!-- DATA 2: ORDERS PIPELINE -->
+                <div class="project-card project-card--featured">
+                    <div class="project-header">
+                        <h3 class="project-name" data-es="Pipeline de pedidos — Airflow, esquema estrella, dbt en BigQuery">Orders pipeline — Airflow, star schema, dbt on BigQuery</h3>
+                        <span class="project-kind mono" data-es="ingeniería de datos">data engineering</span>
+                    </div>
+                    <p class="project-desc" data-es="Datos de pedidos de 3 tiendas regionales, construidos en dos repos: un ETL en Airflow que maneja fallos, y una capa ELT donde dbt modela los datos como esquema estrella en BigQuery.">
+                        Order data from 3 regional stores, built in two repos: an Airflow ETL that handles failures,
+                        and an ELT layer where dbt models the data as a star schema in BigQuery.
+                    </p>
+                    <div class="flow-group">
+                        <div class="flow-row">
+                            <span class="flow-label mono">pedidos-etl-airflow</span>
+                            <div class="flow">
+                                <span class="flow-step" data-es="Pedidos de tiendas">Store orders</span><span class="flow-arrow">→</span>
+                                <span class="flow-step flow-step--main">Airflow ETL</span><span class="flow-arrow">→</span>
+                                <span class="flow-step">PostgreSQL</span><span class="flow-arrow">→</span>
+                                <span class="flow-step" data-es="Esquema estrella">Star schema</span>
+                            </div>
+                        </div>
+                        <div class="flow-row">
+                            <span class="flow-label mono">pedidos-dbt-bigquery</span>
+                            <div class="flow">
+                                <span class="flow-step" data-es="BigQuery (datos crudos)">BigQuery raw</span><span class="flow-arrow">→</span>
+                                <span class="flow-step flow-step--main" data-es="Modelos dbt">dbt models</span><span class="flow-arrow">→</span>
+                                <span class="flow-step" data-es="Hechos + 3 dimensiones">Fact + 3 dimensions</span><span class="flow-arrow">→</span>
+                                <span class="flow-step" data-es="Tests de datos">Data tests</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="project-points">
+                        <li data-es="El ETL maneja 5 tipos de fallos de producción (archivos dañados, duplicados, conexiones caídas) e incluye tests automatizados.">The ETL handles 5 types of production failures (damaged files, duplicates, dropped connections) and ships with automated tests.</li>
+                        <li data-es="El esquema estrella tiene 1 tabla de hechos y 3 dimensiones, construido con 4 modelos dbt enlazados con <code>ref()</code>.">The star schema has 1 fact table and 3 dimensions, built as 4 dbt models linked with <code>ref()</code>.</li>
+                        <li data-es="Los tests de dbt validan llaves y relaciones. El acceso a BigQuery usa impersonation de cuenta de servicio, sin llaves JSON descargadas.">dbt tests check keys and relationships. Access to BigQuery uses service-account impersonation, with no downloaded JSON keys.</li>
+                    </ul>
+                    <div class="tag-list">
+                        <span class="tag tag--main">Airflow</span>
+                        <span class="tag tag--main">dbt</span>
+                        <span class="tag tag--main">BigQuery</span>
+                        <span class="tag tag--main">PostgreSQL</span>
+                        <span class="tag">GCP</span>
+                        <span class="tag" data-es="Esquema estrella">Star schema</span>
+                        <span class="tag">pytest</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/stivenjc/pedidos-etl-airflow" target="_blank" class="mono">&lt;git/pedidos-etl-airflow&gt;</a>
+                        <a href="https://github.com/stivenjc/pedidos-dbt-bigquery" target="_blank" class="mono">&lt;git/pedidos-dbt-bigquery&gt;</a>
+                    </div>
+                </div>
+
+                <!-- TEARRASTRA -->
+                <div class="project-card project-card--featured">
+                    <div class="project-header">
+                        <h3 class="project-name" data-es="Tearrastra — Cofundador">Tearrastra — Co-founder</h3>
+                        <a href="https://tearrastra.com.co" target="_blank" class="project-link" title="Live site">↗</a>
+                    </div>
+                    <p class="project-desc" data-es="Marketplace de subastas para fletes, mudanzas y acarreos en Colombia, con 0% de comisión. Los usuarios publican fotos de lo que necesitan mover y conductores verificados envían ofertas directas. Lo construimos entre los cofundadores, un equipo donde todos participamos en cada área del trabajo.">Auction marketplace for freight, moves and hauling in Colombia, with 0% commission. Users post photos of what they need to move and verified drivers send offers directly. Built with my co-founders, a team where everyone takes part in every area of the work.</p>
+                    <ul class="project-points">
+                        <li data-es="Tres aplicaciones en un solo monorepo: web para clientes, app móvil para conductores y panel administrativo, todas con una capa de datos compartida.">Three apps in one monorepo: a web app for clients, a mobile app for drivers and an admin back office, all sharing one data layer.</li>
+                        <li data-es="Ofertas en tiempo real, ingreso con código por SMS y acceso por roles aplicado en la base de datos con Row Level Security.">Real-time offers, phone login with SMS codes, and role-based access enforced in the database with Row Level Security.</li>
+                        <li data-es="Participé en el desarrollo de la plataforma, web y móvil, y en la creación de contenido para nuestras redes sociales, junto a mis cofundadores.">I took part in developing the platform on web and mobile, and in creating content for our social networks, together with my co-founders.</li>
+                    </ul>
+                    <div class="stack-lines">
+                        <div class="stack-row"><span class="stack-label mono" data-es="Web (clientes)">Web (clients)</span><span class="stack-value">Next.js 16 · React 19 · Tailwind v4 · Zustand · Zod</span></div>
+                        <div class="stack-row"><span class="stack-label mono" data-es="Móvil (conductores)">Mobile (drivers)</span><span class="stack-value">React Native · Expo · Reanimated · Maestro (E2E) · Jest</span></div>
+                        <div class="stack-row"><span class="stack-label mono" data-es="Panel admin">Back office</span><span class="stack-value">Angular 21 (Signals) · PrimeNG · RxJS</span></div>
+                        <div class="stack-row"><span class="stack-label mono" data-es="Capa de datos">Data layer</span><span class="stack-value">Supabase: PostgreSQL with RLS and triggers · Auth · Storage · Realtime · Edge Functions</span></div>
+                        <div class="stack-row"><span class="stack-label mono" data-es="Herramientas">Tooling</span><span class="stack-value">Turborepo · pnpm workspaces · TypeScript · Sentry · PostHog</span></div>
+                    </div>
+                    <div class="tag-list">
+                        <span class="tag tag--main">Next.js</span>
+                        <span class="tag tag--main">React Native</span>
+                        <span class="tag tag--main">Supabase</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Turborepo</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://tearrastra.com.co" target="_blank" class="mono">&lt;tearrastra.com.co&gt;</a>
+                        <a href="https://www.instagram.com/tearrastra.co" target="_blank" class="mono">&lt;instagram/tearrastra.co&gt;</a>
                     </div>
                 </div>
 
@@ -176,98 +202,159 @@
         </div>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section class="section section--alt" id="experience">
+    <!-- STACK -->
+    <section class="section section--alt" id="skills">
         <div class="container">
             <div class="section-header">
-                <span class="section-num mono">02</span>
-                <h2 class="section-title">Experience</h2>
+                <h2 class="section-title" data-es="Stack técnico">Tech stack</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 class="skill-group-title" data-es="Ingeniería de datos">Data engineering</h3>
+                    <div class="tag-list">
+                        <span class="tag tag--main">Python</span>
+                        <span class="tag tag--main">SQL</span>
+                        <span class="tag tag--main">PySpark</span>
+                        <span class="tag tag--main">Apache Airflow</span>
+                        <span class="tag tag--main">dbt</span>
+                        <span class="tag tag--main">BigQuery</span>
+                        <span class="tag" data-es="Modelado en esquema estrella">Star schema modeling</span>
+                        <span class="tag">Parquet</span>
+                        <span class="tag">pytest</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-group-title">Cloud &amp; DevOps</h3>
+                    <div class="tag-list">
+                        <span class="tag tag--main">GCP</span>
+                        <span class="tag tag--main">Docker</span>
+                        <span class="tag">Cloud Storage</span>
+                        <span class="tag">IAM</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Docker Compose</span>
+                        <span class="tag">Git / GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-group-title" data-es="Backend y bases de datos">Backend &amp; databases</h3>
+                    <div class="tag-list">
+                        <span class="tag tag--main">Django</span>
+                        <span class="tag tag--main">Django REST Framework</span>
+                        <span class="tag tag--main">PostgreSQL</span>
+                        <span class="tag" data-es="Optimización de consultas">Query optimization</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Supabase</span>
+                        <span class="tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-group-title" data-es="Frontend, móvil y flujo de trabajo">Frontend, mobile &amp; workflow</h3>
+                    <div class="tag-list">
+                        <span class="tag">Angular (Signals, RxJS)</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">React Native (Expo)</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Scrum</span>
+                        <span class="tag" data-es="Desarrollo guiado por especificaciones">Spec-Driven Dev</span>
+                        <span class="tag" data-es="Desarrollo asistido por IA (Claude Code)">AI-assisted dev (Claude Code)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-es="Experiencia">Experience</h2>
             </div>
             <div class="exp-list">
 
                 <div class="exp-item">
                     <div class="exp-meta">
-                        <span class="exp-date mono">Jan 2026 — Present</span>
-                        <span class="exp-badge">Current</span>
+                        <span class="exp-date mono" data-es="Ene 2026 — Presente">Jan 2026 — Present</span>
+                        <span class="exp-badge" data-es="Actual">Current</span>
                     </div>
                     <div class="exp-body">
-                        <h3 class="exp-role">Full Stack Developer</h3>
-                        <p class="exp-company">Independent · Barranquilla, Colombia</p>
+                        <h3 class="exp-role" data-es="Cofundador">Co-founder</h3>
+                        <p class="exp-company">Tearrastra · Colombia</p>
                         <ul class="exp-achievements">
-                            <li>Led UI migration to Angular 18 using Signals, eliminating Zone.js complexity and improving reactivity</li>
-                            <li>Implemented Spec-Driven Development (SDD), reducing logic errors by 30% through strict pre-development requirements</li>
-                            <li>Integrated AI agents (Claude Code) into daily workflow for faster deployments and efficient refactoring</li>
-                            <li>Designed API consumption logic for social interaction systems — likes, friendships, and metrics</li>
+                            <li data-es="Cofundé, junto a un equipo de cofundadores, un marketplace de fletes y mudanzas que conecta usuarios con conductores verificados en toda Colombia, con 0% de comisión">Co-founded, together with a team of co-founders, a freight and moving marketplace that connects users with verified drivers across Colombia, with 0% commission</li>
+                            <li data-es="Participé en el desarrollo de la plataforma web y móvil: Next.js, React Native con Expo y una capa de datos compartida en Supabase y PostgreSQL">Took part in developing the platform on web and mobile: Next.js, React Native with Expo, and a shared Supabase and PostgreSQL data layer</li>
+                            <li data-es="Creé contenido para nuestras redes sociales y compartí con el equipo el resto del trabajo, desde decisiones de producto hasta el lanzamiento">Created content for our social networks and shared the rest of the work with the team, from product decisions to launch</li>
                         </ul>
                         <div class="exp-tags">
-                            <span class="tag tag--sm">Angular 18</span>
-                            <span class="tag tag--sm">Django</span>
-                            <span class="tag tag--sm">PostgreSQL</span>
-                            <span class="tag tag--sm">.Net</span>
-                            <span class="tag tag--sm">Docker</span>
+                            <span class="tag tag--sm">Next.js</span>
+                            <span class="tag tag--sm">React Native</span>
+                            <span class="tag tag--sm">Supabase</span>
+                            <span class="tag tag--sm">TypeScript</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="exp-item">
                     <div class="exp-meta">
-                        <span class="exp-date mono">Nov 2023 — Jan 2026</span>
+                        <span class="exp-date mono" data-es="Nov 2023 — Ene 2026">Nov 2023 — Jan 2026</span>
                     </div>
                     <div class="exp-body">
-                        <h3 class="exp-role">Full Stack Developer</h3>
+                        <h3 class="exp-role" data-es="Desarrollador Full Stack">Full Stack Developer</h3>
                         <p class="exp-company">ROXVAN S.A.S · Barranquilla, Colombia</p>
                         <ul class="exp-achievements">
-                            <li>Built complete architecture of a meteorological web platform using Python/Django on the backend and React on the frontend</li>
-                            <li>Designed REST APIs and optimized PostgreSQL queries — achieved 40% faster server response times under high concurrency</li>
-                            <li>Structured relational data models ensuring clean complex migrations and fluid data flow to the client</li>
+                            <li data-es="Construí la arquitectura backend de una plataforma web meteorológica con Python/Django y React">Built the backend architecture of a meteorological web platform with Python/Django and React</li>
+                            <li data-es="Diseñé APIs REST y optimicé consultas en PostgreSQL, con caché en Redis: 40% menos tiempo de respuesta del servidor bajo alta concurrencia">Designed REST APIs and optimized PostgreSQL queries, with Redis caching — 40% faster server response times under high concurrency</li>
+                            <li data-es="Estructuré modelos de datos relacionales y gestioné migraciones complejas, manteniendo un flujo de datos consistente hacia el cliente">Structured relational data models and managed complex migrations, keeping data flowing consistently to the client</li>
+                            <li data-es="Contenericé la aplicación con Docker y gestioné el despliegue en servidores AWS">Containerized the app with Docker and managed deployment on AWS servers</li>
                         </ul>
                         <div class="exp-tags">
                             <span class="tag tag--sm">Python</span>
                             <span class="tag tag--sm">Django</span>
                             <span class="tag tag--sm">React</span>
                             <span class="tag tag--sm">PostgreSQL</span>
-                            <span class="tag tag--sm">REST API</span>
+                            <span class="tag tag--sm">Redis</span>
+                            <span class="tag tag--sm">Docker</span>
+                            <span class="tag tag--sm">AWS</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="exp-item">
                     <div class="exp-meta">
-                        <span class="exp-date mono">Feb 2023 — Jun 2023</span>
+                        <span class="exp-date mono" data-es="Ene 2023 — Jul 2023">Jan 2023 — Jul 2023</span>
                     </div>
                     <div class="exp-body">
-                        <h3 class="exp-role">Backend Developer</h3>
+                        <h3 class="exp-role" data-es="Desarrollador Backend">Backend Developer</h3>
                         <p class="exp-company">Lamac · Bogotá, Colombia</p>
                         <ul class="exp-achievements">
-                            <li>Built PDF report module that reduced memory consumption by 30% processing large data volumes via backend file streaming</li>
-                            <li>Developed modular, decoupled code — increased component reuse by 25% and reduced maintenance time</li>
-                            <li>Managed full Git development lifecycle ensuring clean, organized code integration across sprints</li>
+                            <li data-es="Resolví un problema crítico de memoria en la generación de reportes PDF con streaming de archivos: 30% menos memoria con grandes volúmenes de datos">Fixed a critical memory problem in PDF report generation with file streaming — 30% less memory on large data volumes</li>
+                            <li data-es="Refactoricé módulos heredados a código modular y desacoplado: 25% más reutilización de componentes y menos tiempo de mantenimiento">Refactored legacy modules into modular, decoupled code — 25% more component reuse and less maintenance time</li>
+                            <li data-es="Contenericé el proyecto con Docker y gestioné el despliegue en AWS">Containerized the project with Docker and managed deployment on AWS</li>
                         </ul>
                         <div class="exp-tags">
                             <span class="tag tag--sm">Python</span>
                             <span class="tag tag--sm">Django</span>
-                            <span class="tag tag--sm">PostgreSQL</span>
-                            <span class="tag tag--sm">Git</span>
+                            <span class="tag tag--sm">Docker</span>
+                            <span class="tag tag--sm">AWS</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="exp-item">
                     <div class="exp-meta">
-                        <span class="exp-date mono">Mar 2022 — Jun 2022</span>
+                        <span class="exp-date mono" data-es="Ene 2022 — Jul 2022">Jan 2022 — Jul 2022</span>
                     </div>
                     <div class="exp-body">
-                        <h3 class="exp-role">Backend Developer</h3>
+                        <h3 class="exp-role" data-es="Desarrollador Backend">Backend Developer</h3>
                         <p class="exp-company">Blackhost SAS · Barranquilla, Colombia</p>
                         <ul class="exp-achievements">
-                            <li>Designed efficient REST APIs and optimized complex PostgreSQL queries using Django ORM — 40% faster response times</li>
-                            <li>Ensured data integrity by managing advanced migrations and complex relational models — reduced anomalies by 15%</li>
+                            <li data-es="Diseñé servicios RESTful con Django REST Framework">Designed RESTful services with Django REST Framework</li>
+                            <li data-es="Gestioné migraciones y modelos relacionales: 15% menos anomalías y errores de redundancia en la base de datos">Managed migrations and relational models — 15% fewer anomalies and redundancy errors in the database</li>
                         </ul>
                         <div class="exp-tags">
                             <span class="tag tag--sm">Django</span>
+                            <span class="tag tag--sm">DRF</span>
                             <span class="tag tag--sm">PostgreSQL</span>
-                            <span class="tag tag--sm">REST API</span>
-                            <span class="tag tag--sm">Django ORM</span>
                         </div>
                     </div>
                 </div>
@@ -280,42 +367,37 @@
     <section class="section section--alt" id="education">
         <div class="container">
             <div class="section-header">
-                <span class="section-num mono">04</span>
-                <h2 class="section-title">Education</h2>
+                <h2 class="section-title" data-es="Educación">Education</h2>
             </div>
             <div class="edu-list">
-
                 <div class="edu-item">
                     <div class="edu-meta">
-                        <span class="exp-date mono">2024 — Present</span>
-                        <span class="exp-badge">In progress</span>
+                        <span class="exp-date mono" data-es="2024 — Presente">2024 — Present</span>
+                        <span class="exp-badge" data-es="En curso">In progress</span>
                     </div>
                     <div class="edu-body">
-                        <h3 class="edu-degree">Tecnología en Gestión de Soluciones de Datos con Inteligencia Artificial</h3>
-                        <p class="edu-school">Colombia</p>
+                        <h3 class="edu-degree" data-es="Tecnología en Gestión de Soluciones de Datos con Inteligencia Artificial">Technologist degree in Data Solutions Management with Artificial Intelligence</h3>
+                        <p class="edu-school">Politécnico Internacional · Colombia</p>
                     </div>
                 </div>
-
                 <div class="edu-item">
                     <div class="edu-meta">
-                        <span class="exp-date mono">Jan 2021 — Oct 2021</span>
+                        <span class="exp-date mono" data-es="Ene 2021 — Oct 2021">Jan 2021 — Oct 2021</span>
                     </div>
                     <div class="edu-body">
-                        <h3 class="edu-degree">Análisis y Desarrollo de Datos</h3>
+                        <h3 class="edu-degree" data-es="Análisis y Desarrollo de Datos">Data Analysis and Development (technical program)</h3>
                         <p class="edu-school">SENA · Barranquilla, Colombia</p>
                     </div>
                 </div>
-
                 <div class="edu-item">
                     <div class="edu-meta">
                         <span class="exp-date mono">2008 — 2019</span>
                     </div>
                     <div class="edu-body">
-                        <h3 class="edu-degree">Bachiller Académico</h3>
+                        <h3 class="edu-degree" data-es="Bachiller Académico">High school diploma</h3>
                         <p class="edu-school">INETMAR · Margarita Bolívar, Colombia</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -324,17 +406,16 @@
     <section class="section contact-section" id="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-num mono">05</span>
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title" data-es="Contacto">Contact</h2>
             </div>
-            <p class="contact-intro">Open to remote opportunities worldwide. Feel free to reach out.</p>
+            <p class="contact-intro" data-es="Abierto a oportunidades remotas en cualquier país. Escríbeme cuando quieras.">Open to remote opportunities worldwide. Feel free to reach out.</p>
             <div class="contact-grid">
                 <a href="mailto:jimenezcardenasad@gmail.com" class="contact-card">
                     <span class="contact-label mono">email</span>
                     <span class="contact-value">jimenezcardenasad@gmail.com</span>
                 </a>
                 <a href="tel:+573107111919" class="contact-card">
-                    <span class="contact-label mono">phone</span>
+                    <span class="contact-label mono" data-es="teléfono">phone</span>
                     <span class="contact-value">+57 310 711 1919</span>
                 </a>
                 <a href="https://www.linkedin.com/in/adjimenezc/" target="_blank" class="contact-card">
@@ -353,10 +434,34 @@
 
 <footer class="site-footer">
     <div class="container footer-inner">
-        <span class="mono footer-text">Adrian Jimenez · Backend Developer · 2026</span>
+        <span class="mono footer-text">Adrian Jimenez · Data Engineer (Jr) · 2026</span>
         <span class="mono footer-text">Bogotá, Colombia</span>
     </div>
 </footer>
 
+
+<script>
+(function () {
+    var els = document.querySelectorAll('[data-es]');
+    els.forEach(function (e) { e.dataset.en = e.innerHTML; });
+    function apply(l) {
+        document.documentElement.lang = l;
+        els.forEach(function (e) { e.innerHTML = l === 'es' ? e.dataset.es : e.dataset.en; });
+        document.querySelectorAll('.lang-btn').forEach(function (b) {
+            b.setAttribute('aria-pressed', String(b.dataset.l === l));
+        });
+    }
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (err) {}
+    var auto = (navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+    document.querySelectorAll('.lang-btn').forEach(function (b) {
+        b.addEventListener('click', function () {
+            apply(b.dataset.l);
+            try { localStorage.setItem('lang', b.dataset.l); } catch (err) {}
+        });
+    });
+    apply(saved || auto);
+})();
+</script>
 </body>
 </html>
